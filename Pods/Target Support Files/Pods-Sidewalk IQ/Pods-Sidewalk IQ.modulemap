@@ -1,0 +1,6 @@
+framework module Pods_Sidewalk_IQ {
+  umbrella header "Pods-Sidewalk IQ-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,35 @@
+PODS:
+  - AEAccordion (2.0.0)
+  - Alamofire (4.2.0)
+  - Charts (3.0.4):
+    - Charts/Core (= 3.0.4)
+  - Charts/Core (3.0.4)
+  - IQKeyboardManagerSwift (5.0.6)
+  - JTCalendar (2.1.10)
+  - KYDrawerController (2.0.4)
+  - MBProgressHUD (1.1.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - AEAccordion
+  - Alamofire (~> 4.2.0)
+  - Charts
+  - IQKeyboardManagerSwift
+  - JTCalendar (~> 2.0)
+  - KYDrawerController
+  - MBProgressHUD
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  AEAccordion: 1402921d0bc0f8a5d7b4fe7a80ca7162225bc032
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  Charts: 0705898046257443f0afbbc3179f4b67507b6e48
+  IQKeyboardManagerSwift: 02bfbb0dff71c66d0ab77d80d25dfce0c3717735
+  JTCalendar: d85b0222e9378007a2d185b15c90b7d707a2abe0
+  KYDrawerController: cf5839877c442132123e9d482f458821026defdf
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 5a32efdb43c06735aed33ea15ddf86ad7c62ad49
+
+COCOAPODS: 1.2.1

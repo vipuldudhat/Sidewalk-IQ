@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEF986F4723D80A2979FE930 /* Pods_Sidewalk_IQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE295766DF2025427F77AF67 /* Pods_Sidewalk_IQ.framework */; };
 		F60D7DDC1FD468A6001EE593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D7DDB1FD468A6001EE593 /* AppDelegate.swift */; };
 		F60D7DDE1FD468A6001EE593 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D7DDD1FD468A6001EE593 /* ViewController.swift */; };
 		F60D7DE11FD468A6001EE593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60D7DDF1FD468A6001EE593 /* Main.storyboard */; };
 		F60D7DE31FD468A6001EE593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60D7DE21FD468A6001EE593 /* Assets.xcassets */; };
 		F60D7DE61FD468A6001EE593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60D7DE41FD468A6001EE593 /* LaunchScreen.storyboard */; };
+		F60D7DEE1FD468C6001EE593 /* Authenticate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60D7DED1FD468C6001EE593 /* Authenticate.storyboard */; };
+		F60D7DF11FD46EC9001EE593 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D7DF01FD46EC9001EE593 /* LoginVC.swift */; };
+		F60D7DF31FD46EDC001EE593 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D7DF21FD46EDC001EE593 /* RegisterVC.swift */; };
+		F60D7DFC1FD470A8001EE593 /* CEStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D7DFA1FD47098001EE593 /* CEStoryboardExtension.swift */; };
+		F60D7DFD1FD470A8001EE593 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D7DF81FD47098001EE593 /* Constant.swift */; };
+		F60D7DFE1FD470A8001EE593 /* VHColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D7DFB1FD47098001EE593 /* VHColor.swift */; };
+		F60D7DFF1FD470A8001EE593 /* VHImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D7DF61FD47098001EE593 /* VHImage.swift */; };
+		F60D7E001FD470A8001EE593 /* VHString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D7DF71FD47098001EE593 /* VHString.swift */; };
+		F60D7E011FD470A8001EE593 /* VHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D7DF91FD47098001EE593 /* VHView.swift */; };
+		F60D7E021FD470A8001EE593 /* VHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D7DF51FD47098001EE593 /* VHViewController.swift */; };
+		F64BEFE01FD56B2F00C66990 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64BEFDF1FD56B2F00C66990 /* CalendarVC.swift */; };
+		F6FFCC7B1FD50629002CF5CD /* networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FFCC791FD50629002CF5CD /* networking.swift */; };
+		F6FFCC7C1FD50629002CF5CD /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FFCC7A1FD50629002CF5CD /* Reach.swift */; };
+		F6FFCC801FD51BC6002CF5CD /* SideMenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FFCC7F1FD51BC6002CF5CD /* SideMenuTVC.swift */; };
+		F6FFCC831FD5211A002CF5CD /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FFCC821FD5211A002CF5CD /* DashboardVC.swift */; };
+		F6FFCC871FD5531F002CF5CD /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FFCC861FD5531F002CF5CD /* EditProfileVC.swift */; };
+		F6FFCC8A1FD55C68002CF5CD /* ReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FFCC891FD55C68002CF5CD /* ReportVC.swift */; };
+		F6FFCC8D1FD55C7F002CF5CD /* SiteScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FFCC8C1FD55C7F002CF5CD /* SiteScoreVC.swift */; };
+		F6FFCC8F1FD55C99002CF5CD /* ExportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FFCC8E1FD55C99002CF5CD /* ExportVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA75F51AC6BFC5FE4C6BE3FC /* Pods-Sidewalk IQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sidewalk IQ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sidewalk IQ/Pods-Sidewalk IQ.debug.xcconfig"; sourceTree = "<group>"; };
+		F272C26E458893C3D0F90421 /* Pods-Sidewalk IQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sidewalk IQ.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sidewalk IQ/Pods-Sidewalk IQ.release.xcconfig"; sourceTree = "<group>"; };
 		F60D7DD81FD468A6001EE593 /* Sidewalk IQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sidewalk IQ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60D7DDB1FD468A6001EE593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F60D7DDD1FD468A6001EE593 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +44,26 @@
 		F60D7DE21FD468A6001EE593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60D7DE51FD468A6001EE593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F60D7DE71FD468A6001EE593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60D7DED1FD468C6001EE593 /* Authenticate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authenticate.storyboard; sourceTree = "<group>"; };
+		F60D7DF01FD46EC9001EE593 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F60D7DF21FD46EDC001EE593 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		F60D7DF51FD47098001EE593 /* VHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHViewController.swift; sourceTree = "<group>"; };
+		F60D7DF61FD47098001EE593 /* VHImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHImage.swift; sourceTree = "<group>"; };
+		F60D7DF71FD47098001EE593 /* VHString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHString.swift; sourceTree = "<group>"; };
+		F60D7DF81FD47098001EE593 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F60D7DF91FD47098001EE593 /* VHView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHView.swift; sourceTree = "<group>"; };
+		F60D7DFA1FD47098001EE593 /* CEStoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEStoryboardExtension.swift; sourceTree = "<group>"; };
+		F60D7DFB1FD47098001EE593 /* VHColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHColor.swift; sourceTree = "<group>"; };
+		F64BEFDF1FD56B2F00C66990 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		F6FFCC791FD50629002CF5CD /* networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networking.swift; sourceTree = "<group>"; };
+		F6FFCC7A1FD50629002CF5CD /* Reach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		F6FFCC7F1FD51BC6002CF5CD /* SideMenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTVC.swift; sourceTree = "<group>"; };
+		F6FFCC821FD5211A002CF5CD /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		F6FFCC861FD5531F002CF5CD /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		F6FFCC891FD55C68002CF5CD /* ReportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportVC.swift; sourceTree = "<group>"; };
+		F6FFCC8C1FD55C7F002CF5CD /* SiteScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteScoreVC.swift; sourceTree = "<group>"; };
+		F6FFCC8E1FD55C99002CF5CD /* ExportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportVC.swift; sourceTree = "<group>"; };
+		FE295766DF2025427F77AF67 /* Pods_Sidewalk_IQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sidewalk_IQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +71,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF986F4723D80A2979FE930 /* Pods_Sidewalk_IQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F27A11CE445CB72D2C8AE4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA75F51AC6BFC5FE4C6BE3FC /* Pods-Sidewalk IQ.debug.xcconfig */,
+				F272C26E458893C3D0F90421 /* Pods-Sidewalk IQ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B361240A8A177FB1470BD3E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE295766DF2025427F77AF67 /* Pods_Sidewalk_IQ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F60D7DCF1FD468A6001EE593 = {
 			isa = PBXGroup;
 			children = (
 				F60D7DDA1FD468A6001EE593 /* Sidewalk IQ */,
 				F60D7DD91FD468A6001EE593 /* Products */,
+				9F27A11CE445CB72D2C8AE4C /* Pods */,
+				B361240A8A177FB1470BD3E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +116,121 @@
 		F60D7DDA1FD468A6001EE593 /* Sidewalk IQ */ = {
 			isa = PBXGroup;
 			children = (
+				F64BEFDE1FD56B1F00C66990 /* Calendar */,
+				F6FFCC8B1FD55C6B002CF5CD /* SiteScore */,
+				F6FFCC881FD55C56002CF5CD /* Report */,
+				F6FFCC851FD5530A002CF5CD /* Edit Profile */,
+				F6FFCC841FD523D9002CF5CD /* Sensors */,
+				F6FFCC811FD52104002CF5CD /* Dashboard */,
+				F6FFCC7E1FD51AEE002CF5CD /* SideMenu */,
+				F6FFCC7D1FD518A8002CF5CD /* New Group */,
+				F60D7DF41FD4707A001EE593 /* My Class */,
+				F60D7DEF1FD46EB1001EE593 /* Register */,
 				F60D7DDB1FD468A6001EE593 /* AppDelegate.swift */,
-				F60D7DDD1FD468A6001EE593 /* ViewController.swift */,
 				F60D7DDF1FD468A6001EE593 /* Main.storyboard */,
 				F60D7DE21FD468A6001EE593 /* Assets.xcassets */,
 				F60D7DE41FD468A6001EE593 /* LaunchScreen.storyboard */,
 				F60D7DE71FD468A6001EE593 /* Info.plist */,
+				F6FFCC901FD55CA0002CF5CD /* Export */,
 			);
 			path = "Sidewalk IQ";
+			sourceTree = "<group>";
+		};
+		F60D7DEF1FD46EB1001EE593 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F60D7DED1FD468C6001EE593 /* Authenticate.storyboard */,
+				F60D7DF01FD46EC9001EE593 /* LoginVC.swift */,
+				F60D7DF21FD46EDC001EE593 /* RegisterVC.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		F60D7DF41FD4707A001EE593 /* My Class */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFCC791FD50629002CF5CD /* networking.swift */,
+				F6FFCC7A1FD50629002CF5CD /* Reach.swift */,
+				F60D7DFA1FD47098001EE593 /* CEStoryboardExtension.swift */,
+				F60D7DF81FD47098001EE593 /* Constant.swift */,
+				F60D7DFB1FD47098001EE593 /* VHColor.swift */,
+				F60D7DF61FD47098001EE593 /* VHImage.swift */,
+				F60D7DF71FD47098001EE593 /* VHString.swift */,
+				F60D7DF91FD47098001EE593 /* VHView.swift */,
+				F60D7DF51FD47098001EE593 /* VHViewController.swift */,
+			);
+			path = "My Class";
+			sourceTree = "<group>";
+		};
+		F64BEFDE1FD56B1F00C66990 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				F64BEFDF1FD56B2F00C66990 /* CalendarVC.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		F6FFCC7D1FD518A8002CF5CD /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F6FFCC7E1FD51AEE002CF5CD /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFCC7F1FD51BC6002CF5CD /* SideMenuTVC.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		F6FFCC811FD52104002CF5CD /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFCC821FD5211A002CF5CD /* DashboardVC.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		F6FFCC841FD523D9002CF5CD /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				F60D7DDD1FD468A6001EE593 /* ViewController.swift */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		F6FFCC851FD5530A002CF5CD /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFCC861FD5531F002CF5CD /* EditProfileVC.swift */,
+			);
+			path = "Edit Profile";
+			sourceTree = "<group>";
+		};
+		F6FFCC881FD55C56002CF5CD /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFCC891FD55C68002CF5CD /* ReportVC.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		F6FFCC8B1FD55C6B002CF5CD /* SiteScore */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFCC8C1FD55C7F002CF5CD /* SiteScoreVC.swift */,
+			);
+			path = SiteScore;
+			sourceTree = "<group>";
+		};
+		F6FFCC901FD55CA0002CF5CD /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFCC8E1FD55C99002CF5CD /* ExportVC.swift */,
+			);
+			path = Export;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F60D7DEA1FD468A6001EE593 /* Build configuration list for PBXNativeTarget "Sidewalk IQ" */;
 			buildPhases = (
+				4DC86D69BABB6369D8BD7552 /* [CP] Check Pods Manifest.lock */,
 				F60D7DD41FD468A6001EE593 /* Sources */,
 				F60D7DD51FD468A6001EE593 /* Frameworks */,
 				F60D7DD61FD468A6001EE593 /* Resources */,
+				2DED6B3AABFEAA85ECD5680C /* [CP] Embed Pods Frameworks */,
+				6D46BA2E6DC8529A80A1CA7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +268,7 @@
 				TargetAttributes = {
 					F60D7DD71FD468A6001EE593 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -124,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60D7DE61FD468A6001EE593 /* LaunchScreen.storyboard in Resources */,
+				F60D7DEE1FD468C6001EE593 /* Authenticate.storyboard in Resources */,
 				F60D7DE31FD468A6001EE593 /* Assets.xcassets in Resources */,
 				F60D7DE11FD468A6001EE593 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +304,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DED6B3AABFEAA85ECD5680C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sidewalk IQ/Pods-Sidewalk IQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DC86D69BABB6369D8BD7552 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D46BA2E6DC8529A80A1CA7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sidewalk IQ/Pods-Sidewalk IQ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F60D7DD41FD468A6001EE593 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F60D7DDE1FD468A6001EE593 /* ViewController.swift in Sources */,
+				F6FFCC831FD5211A002CF5CD /* DashboardVC.swift in Sources */,
+				F60D7DFF1FD470A8001EE593 /* VHImage.swift in Sources */,
+				F60D7E011FD470A8001EE593 /* VHView.swift in Sources */,
+				F60D7DF31FD46EDC001EE593 /* RegisterVC.swift in Sources */,
+				F60D7DFE1FD470A8001EE593 /* VHColor.swift in Sources */,
+				F60D7DFC1FD470A8001EE593 /* CEStoryboardExtension.swift in Sources */,
+				F6FFCC8A1FD55C68002CF5CD /* ReportVC.swift in Sources */,
 				F60D7DDC1FD468A6001EE593 /* AppDelegate.swift in Sources */,
+				F6FFCC7B1FD50629002CF5CD /* networking.swift in Sources */,
+				F64BEFE01FD56B2F00C66990 /* CalendarVC.swift in Sources */,
+				F6FFCC7C1FD50629002CF5CD /* Reach.swift in Sources */,
+				F6FFCC801FD51BC6002CF5CD /* SideMenuTVC.swift in Sources */,
+				F6FFCC8D1FD55C7F002CF5CD /* SiteScoreVC.swift in Sources */,
+				F6FFCC8F1FD55C99002CF5CD /* ExportVC.swift in Sources */,
+				F60D7DF11FD46EC9001EE593 /* LoginVC.swift in Sources */,
+				F60D7E021FD470A8001EE593 /* VHViewController.swift in Sources */,
+				F60D7DFD1FD470A8001EE593 /* Constant.swift in Sources */,
+				F6FFCC871FD5531F002CF5CD /* EditProfileVC.swift in Sources */,
+				F60D7E001FD470A8001EE593 /* VHString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +434,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -252,6 +492,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -272,31 +513,41 @@
 		};
 		F60D7DEB1FD468A6001EE593 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA75F51AC6BFC5FE4C6BE3FC /* Pods-Sidewalk IQ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5HVJG8W44U;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Sidewalk IQ/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SCC-INFOTECH-LLP.Sidewalk-IQ";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slideWalkIQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "567db160-72aa-47b6-8efc-89e71e7cccd8";
+				PROVISIONING_PROFILE_SPECIFIER = slidewalk_dev_3;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F60D7DEC1FD468A6001EE593 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F272C26E458893C3D0F90421 /* Pods-Sidewalk IQ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5HVJG8W44U;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Sidewalk IQ/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SCC-INFOTECH-LLP.Sidewalk-IQ";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slideWalkIQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "567db160-72aa-47b6-8efc-89e71e7cccd8";
+				PROVISIONING_PROFILE_SPECIFIER = slidewalk_dev_3;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

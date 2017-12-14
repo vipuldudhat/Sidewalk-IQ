@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+      
+        loadStartupScreen()
+        IQKeyboardManager.sharedManager().enable = true
+        UIApplication.shared.isStatusBarHidden = false
+        UIApplication.shared.statusBarStyle = .lightContent
+        
+        
+        
         return true
     }
 
@@ -41,6 +50,51 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    func loadStartupScreen() {
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        if UserDefaults.standard.value(forKey: VHkey.login) != nil {
+            // User is signed in.
+            
+            
+            let homeVC = UIStoryboard(storyboard: UIStoryboard.Storyboard.Main).instantiateViewController(withIdentifier: "sideNavView1") as! UINavigationController
+            
+            
+//            let mainViewController   = ViewController()
+//            let drawerViewController = DrawerViewController()
+//            let drawerController     = KYDrawerController()
+//            drawerController.mainViewController = UINavigationController(
+//                rootViewController: mainViewController
+//            )
+//            drawerController.drawerViewController = drawerViewController
+//
+//            /* Customize
+//             drawerController.drawerDirection = .Right
+//             drawerController.drawerWidth     = 200
+//             */
+//
+//            window = UIWindow(frame: UIScreen.mainScreen().bounds)
+//            window?.rootViewController = drawerController
+//            window?.makeKeyAndVisible()
+            
+            self.window?.rootViewController = homeVC
+            self.window?.makeKeyAndVisible()
+            
+            
+            
+            
+        } else {
+            // No user is signed in.
+            
+            window!.rootViewController = UIStoryboard(storyboard: UIStoryboard.Storyboard.Authenticate).instantiateInitialViewController()
+            
+            window!.makeKeyAndVisible()
+        }
+        
+        
+    }
 
 }
 

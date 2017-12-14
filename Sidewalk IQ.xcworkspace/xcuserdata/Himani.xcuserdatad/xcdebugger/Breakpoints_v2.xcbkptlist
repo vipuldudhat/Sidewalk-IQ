@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/JTCalendar/JTCalendar/Views/JTCalendarDayView.m"
+            timestampString = "534331336.143309"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "-layoutSubviews"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sidewalk IQ/Dashboard/DashboardVC.swift"
+            timestampString = "534841444.395672"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "setDataCount()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sidewalk IQ/Dashboard/DashboardVC.swift"
+            timestampString = "534841444.396462"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
+            landmarkName = "updatechart()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AEAccordion/Sources/AccordionTableViewController.swift"
+            timestampString = "534769802.394953"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AccordionTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AEAccordion.AccordionTableViewController.expandedIndexPaths.getter : Swift.Array&lt;Foundation.IndexPath&gt;"
+                  moduleName = "AEAccordion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a/Himani%20Project/Client/Sidewalk%20IQ/Pods/AEAccordion/Sources/AccordionTableViewController.swift"
+                  timestampString = "534769499.45183"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AEAccordion.AccordionTableViewController.expandedIndexPaths.setter : Swift.Array&lt;Foundation.IndexPath&gt;"
+                  moduleName = "AEAccordion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a/Himani%20Project/Client/Sidewalk%20IQ/Pods/AEAccordion/Sources/AccordionTableViewController.swift"
+                  timestampString = "534769499.455241"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AEAccordion.AccordionTableViewController.init(frame: __C.CGRect, style: __C.UITableViewStyle) -&gt; AEAccordion.AccordionTableViewController"
+                  moduleName = "AEAccordion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a/Himani%20Project/Client/Sidewalk%20IQ/Pods/AEAccordion/Sources/AccordionTableViewController.swift"
+                  timestampString = "534769499.458746"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AEAccordion.AccordionTableViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;AEAccordion.AccordionTableViewController&gt;"
+                  moduleName = "AEAccordion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a/Himani%20Project/Client/Sidewalk%20IQ/Pods/AEAccordion/Sources/AccordionTableViewController.swift"
+                  timestampString = "534769499.462294"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
