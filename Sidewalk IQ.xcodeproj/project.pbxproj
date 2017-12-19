@@ -268,7 +268,7 @@
 				TargetAttributes = {
 					F60D7DD71FD468A6001EE593 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -516,16 +516,17 @@
 			baseConfigurationReference = BA75F51AC6BFC5FE4C6BE3FC /* Pods-Sidewalk IQ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5HVJG8W44U;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMTR8S52QD;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Sidewalk IQ/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.slideWalkIQ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sidewalkiq.sidewalkiq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "567db160-72aa-47b6-8efc-89e71e7cccd8";
-				PROVISIONING_PROFILE_SPECIFIER = slidewalk_dev_3;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -536,16 +537,17 @@
 			baseConfigurationReference = F272C26E458893C3D0F90421 /* Pods-Sidewalk IQ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5HVJG8W44U;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMTR8S52QD;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Sidewalk IQ/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.slideWalkIQ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sidewalkiq.sidewalkiq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "567db160-72aa-47b6-8efc-89e71e7cccd8";
-				PROVISIONING_PROFILE_SPECIFIER = slidewalk_dev_3;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
